@@ -116,4 +116,4 @@ modes explicitly listed in `word-wrap-disabled-modes'."
   word-wrap-mode
   word-wrap--enable-global-mode)
   
-(provide 'word-wrap)
+(provide 'word-wrap-mode)
