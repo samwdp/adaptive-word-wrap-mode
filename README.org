@@ -1,0 +1,7 @@
+
+#+title: README
+#+author: Sam Precious
+
+* README
+
+This has been ripped directly from [[htts://github.com/doomemacs/doom][Doom Emacs]] +word-wrap-mode and put into a package that can be used with vanilla emacs
