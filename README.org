@@ -2,6 +2,20 @@
 #+title: README
 #+author: Sam Precious
 
-* README
+This has been ripped directly from [[htts://github.com/doomemacs/doom][Doom Emacs]] +word-wrap-mode and put into a package that can be used with vanilla emacs.
 
-This has been ripped directly from [[htts://github.com/doomemacs/doom][Doom Emacs]] +word-wrap-mode and put into a package that can be used with vanilla emacs
+Please also ensure that you install
+If this minor mode is updated inside of doom emacs then I will also update this
+
+** Insallation Instructions
+*** Straight (preffered way)
+#+begin_src emacs-lisp
+  (use-package adaptive-wrap)
+  (use-package adaptive-word-wrap-mode
+   :straight (adaptive-word-wrap-mode :type git :host github :repo "samwdp/adaptive-word-wrap-mode")
+   :hook (after-init . global-adaptive-word-wrap-mode)) 
+#+end_src
+
+*** Other methods
+If you use any other version control installable package manager, Elpaca, build in vc-package etc, please modify the Straight installation. There are guides on how to change these over.
+If you have a working example, raise an issue and I will update the readme with the insallation instructions.
